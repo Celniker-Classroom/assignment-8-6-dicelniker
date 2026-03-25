@@ -1,9 +1,19 @@
 // ----- Functions to implement -----
 
 // 1) myFunc(): persistent counter
+let counter = 0;
+//my counter Function
+function myFunc(){
+    counter ++;
+    return counter;
+}
+
 
 // 2) getRandomNum(max): 1..max int or 0 if invalid
 
+function getRandomNum(max){
+  
+}
 // 3) myAdder(x, y): numeric sum
 
 // 4) distance(x1, y1, x2, y2): Euclidean distance
